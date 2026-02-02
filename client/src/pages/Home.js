@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <h2>Lost & Found Items</h2>
-      {items.map(item => (
+      {items.map(item1 => (
         <div key={item._id}>
           <h3>{item.title}</h3>
           <p>{item.location}</p>
