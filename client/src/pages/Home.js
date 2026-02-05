@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import API from "../services/api";
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Home1() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
