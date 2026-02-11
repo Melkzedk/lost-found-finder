@@ -17,6 +17,7 @@ export default function Home() {
           <h3>{item.title}</h3>
           <p>{item.location}</p>
           <p>{item.number}</p>
+          <p>{item.description}</p>
           <Link to={`/item/${item._id}`}>View</Link>
         </div>
       ))}
