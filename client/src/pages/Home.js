@@ -23,6 +23,7 @@ export default function Home() {
           <p>{item.status}</p>
           <p>{item.date}</p>
           <p>{item.Image}</p>
+          <p>{item.userId}</p>
           <Link to={`/item/${item._id}`}>View</Link>
         </div>
       ))}
