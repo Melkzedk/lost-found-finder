@@ -18,7 +18,6 @@ export default function Home() {
           <p>{item.location}</p>
           <p>{item.number}</p>
           <p>{item.description}</p>
-          <p>{item.price}</p>
           <Link to={`/item/${item._id}`}>View</Link>
         </div>
       ))}
