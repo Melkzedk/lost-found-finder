@@ -21,6 +21,7 @@ export default function Home() {
           <p>{item.EstimatedPrice}</p>
           <p>{item.category}</p>
           <p>{item.status}</p>
+          <p>{item.date}</p>
           <Link to={`/item/${item._id}`}>View</Link>
         </div>
       ))}
