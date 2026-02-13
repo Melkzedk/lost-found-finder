@@ -15,6 +15,9 @@ export default function Home() {
       {items.map(item => (
         <div key={item._id}>
           <h3>{item.title}</h3>
+          <p>{item.location}</p>
+          <p>{item.number}</p>
+          <p>{item.description}</p>
           <Link to={`/item/${item._id}`}>View</Link>
         </div>
       ))}
