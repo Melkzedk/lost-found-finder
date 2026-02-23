@@ -17,7 +17,7 @@ export default function ItemDetails() {
 
     return (
     <div>
-      <h2>{item.title}</h2>
+      
       <p>{item.location}</p>
         <p>{item.number}</p>    
         <p>{item.description}</p>
