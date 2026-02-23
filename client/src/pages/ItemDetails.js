@@ -12,7 +12,7 @@ export default function ItemDetails() {
   }, [id]);
 
   if (!item) {
-    return <div>Loading...</div>;
+    return <div>Loading....</div>;
   } 
 
     return (
