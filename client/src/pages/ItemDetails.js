@@ -23,11 +23,7 @@ export default function ItemDetails() {
         <p>{item.description}</p>
         <p>{item.EstimatedPrice}</p>
         <p>{item.contact}</p>
-        <p>{item.category}</p>
-        <p>{item.status}</p>    
-        <p>{item.date}</p>
-        <p>{item.Image}</p>
-        <p>{item.userId}</p>    
+        <p>{item.category}</p>   
     </div>
   );
 }
