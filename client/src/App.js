@@ -14,7 +14,6 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/create" element={<CreateItem />} />
         <Route path="/item/:id" element={<ItemDetails />} />
-        <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </Router>
   );
