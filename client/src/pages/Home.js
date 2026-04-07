@@ -19,6 +19,13 @@ export default function Home() {
           <p>{item.number}</p>
           <p>{item.description}</p>
           <p>{item.EstimatedPrice}</p>
+          <p>{item.category}</p>
+          <p>{item.status}</p>
+          <p>{item.date}</p>
+          <p>{item.Image}</p>
+          <p>{item.userId}</p>
+          <p>{item.claimedBy}</p>
+          <Link to={`/item/${item._id}`}>View</Link>
         </div>
       ))}
     </div>
