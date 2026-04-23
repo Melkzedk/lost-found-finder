@@ -22,6 +22,11 @@ export default function Login() {
         placeholder="Password"
         onChange={(e) => setForm({ ...form, password: e.target.value })}
       />
+      <input 
+      type="password"
+      placeholder="Confirm Password"
+      onChange={(e) => setForm({ ...form, confirmPassword: e.target.value })}
+      />
       <button type="submit">Login</button>
     </form>
   );
