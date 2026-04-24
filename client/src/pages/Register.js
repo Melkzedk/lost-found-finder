@@ -21,6 +21,10 @@ export default function Register() {
         onChange={(e) => setForm({ ...form, email: e.target.value })}
       />
       <input
+      placeholder="Username"
+      onChange={(e) => setForm({ ...form, username: e.target.value })}
+      />
+      <input
         type="password"
         placeholder="Password"
         onChange={(e) => setForm({ ...form, password: e.target.value })}
