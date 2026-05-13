@@ -21,6 +21,9 @@ export default function ItemDetails() {
       <p>{item.location}</p>
         <p>{item.number}</p>    
         <p>{item.description}</p>
+        <p>{item.EstimatedPrice}</p>
+        <p>{item.contact}</p>
+        <p>{item.category}</p>
         <p>{item.status}</p>    
         <p>{item.date}</p>
         <p>{item.Image}</p>
