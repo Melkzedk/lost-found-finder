@@ -28,6 +28,7 @@ export default function CreateItem() {
       <select onChange={e => setItem({...item, type:e.target.value})}>
         <option value="lost">Lost</option>
         <option value="found">Found</option>
+        <option value="other">Other</option>
       </select>
 
       <button type="submit">Post Item</button>
