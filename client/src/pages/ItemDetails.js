@@ -27,7 +27,8 @@ export default function ItemDetails() {
         <p>{item.status}</p>    
         <p>{item.date}</p>
         <p>{item.Image}</p>
-        <p>{item.userId}</p>    
+        <p>{item.userId}</p>  
+        <p>{item.username}</p>  
     </div>
   );
 }
